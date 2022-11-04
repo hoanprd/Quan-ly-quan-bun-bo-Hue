@@ -18,7 +18,7 @@ namespace QuanLyQuanBunBoHue.DAO
             private set { DataProvider.instance = value; }
         }
 
-        private DataProvider(){}
+        private DataProvider() { }
 
         private string connectionSTR = @"Data Source=DESKTOP-BN2IH2M\SQLEXPRESS;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
 
